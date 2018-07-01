@@ -25,6 +25,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -56,6 +58,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'chut.wsgi.application'
+
+ASGI_APPLICATION = 'chut.routing.application'
 
 
 # Database
