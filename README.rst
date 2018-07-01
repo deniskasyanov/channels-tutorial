@@ -20,7 +20,7 @@ Reflections
 ===========
 
 * If commits have been pushed to remote, ``git commit --amend`` on them can be dangerous.
-* ``docker-compose run ...`` creates new container. So changes in this (e.g. ``pip install X``) don't get to the "main" container that is run with ``docker-compose up``.
+* ``docker-compose run ...`` creates new container. So changes in it (e.g. ``pip install X``) don't get to the "main" container that is run with ``docker-compose up``.
 * Related to Channels:
 
   * Consumer instance is created per connected client
